@@ -28,7 +28,7 @@ const BasicForm =()=>{
             <button  onClick={searchBtn}>Search</button>
             
                 <div className="form-content">
-                    {invalidId && <span>Invalid Pokemon Id</span>}
+                    {/*invalidId && <span>Invalid Pokemon Id</span>*/}
                     {/*pokemon && 
                         <>
                             <img src={pokemon.sprites.front_default} alt="#" />
