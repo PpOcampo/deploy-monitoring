@@ -29,12 +29,12 @@ const BasicForm =()=>{
             
                 <div className="form-content">
                     {invalidId && <span>Invalid Pokemon Id</span>}
-                    {pokemon && 
+                    {/*pokemon && 
                         <>
                             <img src={pokemon.sprites.front_default} alt="#" />
                             <span>{pokemon.name}</span>
                         </>
-                    }
+                    */}
                 </div>
         </div>;
 
